@@ -17,12 +17,17 @@ module.exports = {
     }
   },
   rules: {
+    "no-unused-vars": "error",
+    "react/no-typos": "error",
     'react/react-in-jsx-scope': 'off',
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
     'react/display-name': 'off',
     '@next/next/no-img-element': 'off',
     'react/no-unescaped-entities': 'off',
     'import/no-anonymous-default-export': 'off',
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error",
+    "no-console": ["error"],
 
     // add new line above comment
     'lines-around-comment': [

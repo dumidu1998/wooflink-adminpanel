@@ -1,5 +1,5 @@
 {
-  "name": "Wooflink Admin Panel",
+  "name": "wooflink-admin-panel",
   "description": "Admin Panel for Wooflink Web application",
   "license": "MIT",
   "version": "1.0.0",
@@ -20,8 +20,10 @@
     "build": "next build",
     "start": "next start",
     "export": "next export",
-    "lint": "eslint --fix \"src/**/*.{js,jsx}\"",
-    "format": "prettier --write \"src/**/*.{js,jsx}\""
+    "lint": "eslint \"src/**/*.{js,jsx}\"",
+    "lint:fix": "eslint --fix \"src/**/*.{js,jsx}\"",
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@emotion/cache": "^11.6.0",
@@ -51,6 +53,7 @@
     "eslint-import-resolver-alias": "^1.1.2",
     "eslint-import-resolver-typescript": "^2.5.0",
     "eslint-plugin-import": "^2.25.4",
+    "husky": "^8.0.1",
     "next-transpile-modules": "^9.0.0",
     "prettier": "2.5.1"
   }

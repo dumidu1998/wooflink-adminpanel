@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 // ** MUI Imports
 import Box from '@mui/material/Box'
-import { styled, useTheme } from '@mui/material/styles'
+import { styled } from '@mui/material/styles'
 import Typography from '@mui/material/Typography'
 
 // ** Configs
@@ -38,8 +38,6 @@ const VerticalNavHeader = props => {
   // ** Props
   const { verticalNavMenuBranding: userVerticalNavMenuBranding } = props
 
-  // ** Hooks
-  const theme = useTheme()
 
   return (
     <MenuHeaderWrapper className='nav-header' sx={{ pl: 6 }}>
