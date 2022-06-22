@@ -26,7 +26,7 @@ const navigation = () => {
     {
       title: 'Test',
       icon: ShieldAccountOutline,
-      path: '/admin'
+      path: '/admin/test'
     },
     {
       sectionTitle: 'Pages'

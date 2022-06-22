@@ -17,7 +17,11 @@ module.exports = {
     }
   },
   rules: {
-    "no-unused-vars": "error",
+    "no-unused-vars": ["error", {
+      argsIgnorePattern: '^_',
+      varsIgnorePattern: '^_',
+      caughtErrorsIgnorePattern: '^_',
+    }],
     "react/no-typos": "error",
     'react/react-in-jsx-scope': 'off',
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
