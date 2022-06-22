@@ -53,10 +53,7 @@ const App = props => {
     <CacheProvider value={emotionCache}>
       <Head>
         <title>{`${themeConfig.templateName} - Admin Panel`}</title>
-        <meta
-          name='description'
-          content={`${themeConfig.templateName} – Admin Panel`}
-        />
+        <meta name='description' content={`${themeConfig.templateName} – Admin Panel`} />
         <meta name='viewport' content='initial-scale=1, width=device-width' />
       </Head>
 
