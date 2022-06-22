@@ -6,7 +6,7 @@ const DefaultPalette = (mode, themeColor) => {
 
   const primaryGradient = () => {
     if (themeColor === 'primary') {
-      return '#C6A7FE'
+      return '#fff124'
     } else if (themeColor === 'secondary') {
       return '#9C9FA4'
     } else if (themeColor === 'success') {
@@ -27,15 +27,15 @@ const DefaultPalette = (mode, themeColor) => {
       tableHeaderBg: mode === 'light' ? '#F9FAFC' : '#3D3759'
     },
     common: {
-      black: '#000',
-      white: '#FFF'
+      black: '#FFF',
+      white: '#000'
     },
     mode: mode,
     primary: {
-      light: '#9E69FD',
-      main: '#9155FD',
-      dark: '#804BDF',
-      contrastText: '#FFF'
+      light: '#ffd124',
+      main: '#ffd124',
+      dark: '#ffd124',
+      contrastText: '#000'
     },
     secondary: {
       light: '#9C9FA4',
