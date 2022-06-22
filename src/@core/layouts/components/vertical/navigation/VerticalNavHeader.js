@@ -20,6 +20,7 @@ const MenuHeaderWrapper = styled(Box)(({ theme }) => ({
 }))
 
 const HeaderTitle = styled(Typography)(({ theme }) => ({
+  marginTop: theme.spacing(5),
   fontWeight: 600,
   lineHeight: 'normal',
   textTransform: 'uppercase',
@@ -48,6 +49,7 @@ const VerticalNavHeader = props => {
         <Link href='/' passHref>
           <StyledLink>
             <HeaderTitle variant='h6' sx={{ ml: 3 }}>
+              <img height='47' alt='error-illustration' src='/images/Wooflink/LoginGroup.png' />
               {themeConfig.templateName}
             </HeaderTitle>
           </StyledLink>
